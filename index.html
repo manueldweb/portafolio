@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel Fernández | Soluciones Web Corporativas</title>
+    <meta name="description"
+        content="Manuel Fernández: Desarrollo web a medida con Antigravity. Elevamos tu visión técnica. Especialista en Arquitectura y Frontend.">
+
+    <!-- Google Fonts: Outfit for sleek, modern headings; Inter for highly readable body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="#" class="logo-link">
+                <img src="LogoManuel.png" alt="Manuel Fernández Logo" class="logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#servicios" class="nav-link">SERVICIOS</a></li>
+                    <li><a href="#proyectos" class="nav-link">PROYECTOS</a></li>
+                    <li><a href="#contacto" class="nav-link">CONTACTO</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Abrir menú" id="menu-toggle">
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero diamond-pattern-bg">
+        <div class="container hero-inner">
+            <div class="hero-content fade-in-up">
+                <h1 class="hero-title">
+                    SOLUCIONES WEB CORPORATIVAS DE ALTO RENDIMIENTO
+                </h1>
+                <p class="hero-subtitle">
+                    Desarrollo web a medida. Elevamos tu visión técnica.
+                </p>
+                <div class="hero-actions">
+                    <a href="#proyectos" class="btn btn-primary">VER MI TRABAJO</a>
+                </div>
+            </div>
+            <!-- Empty decorative right column for abstract balance -->
+            <div class="hero-visual abstract-diamond">
+                <div class="diamond"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container about-inner">
+            <div class="about-image-wrapper reveal-left">
+                <!-- Using the generated portrait -->
+                <img src="assets/images/portrait_professional_1775347632925.png" alt="Manuel Fernández"
+                    class="about-portrait">
+            </div>
+            <div class="about-text reveal-right">
+                <h2 class="section-title">El Arquitecto de tu Presencia Digital</h2>
+                <div class="title-underline"></div>
+                <p>
+                    Especializado en crear arquitecturas web escalables y experiencias de usuario excepcionales. Mi
+                    enfoque técnico se centra en el rendimiento absoluto, código limpio y un diseño UI/UX que no solo se
+                    ve de alta gama, sino que cumple objetivos corporativos rigurosos.
+                </p>
+                <p>
+                    Utilizando el paradigma de diseño de Antigravity, convierto requisitos complejos en interfaces
+                    intuitivas, rápidas y seguras.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section bg-surface" id="servicios">
+        <div class="container">
+            <h2 class="section-title text-center">Áreas de Especialidad</h2>
+            <div class="title-underline center"></div>
+
+            <div class="services-grid">
+                <div class="service-card reveal-up" style="transition-delay: 100ms;">
+                    <div class="service-icon">
+                        <!-- Line-art SVG icon for Frontend -->
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>DESARROLLO FRONTEND</h3>
+                    <p>Interfaces inmersivas y ultra-rápidas construidas con estándares modernos y precisión de píxeles.
+                    </p>
+                </div>
+
+                <div class="service-card reveal-up" style="transition-delay: 200ms;">
+                    <div class="service-icon">
+                        <!-- Line-art SVG icon for Performance -->
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3>OPTIMIZACIÓN RENDIMIENTO</h3>
+                    <p>Auditorías técnicas y optimización extrema para garantizar TTI bajos y superar los Core Web
+                        Vitals.</p>
+                </div>
+
+                <div class="service-card reveal-up" style="transition-delay: 300ms;">
+                    <div class="service-icon">
+                        <!-- Line-art SVG icon for Architecture -->
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5"></path>
+                            <path d="M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <h3>ARQUITECTURA WEB</h3>
+                    <p>Diseño de sistemas robustos, escalables y mantenibles de principio a fin.</p>
+                </div>
+
+                <div class="service-card reveal-up" style="transition-delay: 400ms;">
+                    <div class="service-icon">
+                        <!-- Line-art SVG icon for Maintenance -->
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z">
+                            </path>
+                            <path d="m15 5 4 4"></path>
+                        </svg>
+                    </div>
+                    <h3>MANTENIMIENTO</h3>
+                    <p>Evolución continua, refactorización y aseguramiento de código a nivel empresarial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section" id="proyectos">
+        <div class="container">
+            <h2 class="section-title text-center">Proyectos Destacados</h2>
+            <div class="title-underline center"></div>
+
+            <div class="portfolio-grid grid-3">
+                <!-- Project 1 -->
+                <div class="project-card reveal-up">
+                    <div class="project-image">
+                        <img src="assets/images/4ulife – Website.png" alt="4U Life Store (Global)">
+                        <div class="project-overlay">
+                            <h3 class="overlay-title">4U Life Store (Global)</h3>
+                            <div class="overlay-tech">
+                                <span>Wordpress</span>
+                                <span>E-commerce</span>
+                            </div>
+                            <a href="https://4ulife.store/" target="_blank" class="btn-outline">Visitar Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal-up" style="transition-delay: 100ms;">
+                    <div class="project-image">
+                        <img src="assets/images/4ulife Colombia – Website.png" alt="4U Life Store (Colombia)">
+                        <div class="project-overlay">
+                            <h3 class="overlay-title">4U Life Store (Colombia)</h3>
+                            <div class="overlay-tech">
+                                <span>Wordpress</span>
+                                <span>E-commerce</span>
+                            </div>
+                            <a href="https://4ulifestore.co/" target="_blank" class="btn-outline">Visitar Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card reveal-up" style="transition-delay: 200ms;">
+                    <div class="project-image">
+                        <img src="assets/images/Myplanusa – Website.png" alt="My Plan USA">
+                        <div class="project-overlay">
+                            <h3 class="overlay-title">My Plan USA</h3>
+                            <div class="overlay-tech">
+                                <span>Wordpress</span>
+                                <span>Landing Page</span>
+                            </div>
+                            <a href="http://myplanusa.com/" target="_blank" class="btn-outline">Visitar Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card reveal-up" style="transition-delay: 0ms;">
+                    <div class="project-image">
+                        <img src="assets/images/Productos al mayor – Website.png" alt="Productos 4U">
+                        <div class="project-overlay">
+                            <h3 class="overlay-title">Productos 4U</h3>
+                            <div class="overlay-tech">
+                                <span>Wordpress</span>
+                                <span>Catalogo De Productos</span>
+                            </div>
+                            <a href="https://productos4u.com/" target="_blank" class="btn-outline">Visitar Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card reveal-up" style="transition-delay: 100ms;">
+                    <div class="project-image">
+                        <img src="assets/images/Merida Publishers.png" alt="Mérida Publishers">
+                        <div class="project-overlay">
+                            <h3 class="overlay-title">Mérida Publishers</h3>
+                            <div class="overlay-tech">
+                                <span>Wordpress</span>
+                                <span>Catalogo Editorial</span>
+                            </div>
+                            <a href="https://www.meridapublishers.com/es/" target="_blank" class="btn-outline">Visitar
+                                Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card reveal-up" style="transition-delay: 200ms;">
+                    <div class="project-image">
+                        <img src="assets/images/Bandoleros Company – Website.png" alt="BNDL Company">
+                        <div class="project-overlay">
+                            <h3 class="overlay-title">BNDL Company</h3>
+                            <a href="https://bndlcompany.com/" target="_blank" class="btn-outline">Visitar Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card reveal-up" style="transition-delay: 0ms;">
+                    <div class="project-image">
+                        <img src="assets/images/Grow Nova Invest – Website.png" alt="Grownova Invest">
+                        <div class="project-overlay">
+                            <h3 class="overlay-title">Grownova Invest</h3>
+                            <div class="overlay-tech">
+                                <span>Wordpress</span>
+                                <span>Catalogo Inmobiliario</span>
+                            </div>
+                            <a href="https://grownovainvest.com/" target="_blank" class="btn-outline">Visitar Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card reveal-up" style="transition-delay: 100ms;">
+                    <div class="project-image">
+                        <img src="assets/images/Camila Inmuebles.png" alt="Camila Inmuebles">
+                        <div class="project-overlay">
+                            <h3 class="overlay-title">Camila Inmuebles</h3>
+                            <div class="overlay-tech">
+                                <span>Wordpress</span>
+                                <span>Catalogo Inmobiliario</span>
+                            </div>
+                            <a href="https://camilainmuebles.com" target="_blank" class="btn-outline">Visitar Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card reveal-up" style="transition-delay: 200ms;">
+                    <div class="project-image">
+                        <img src="assets/images/Vecoflex – Website.png" alt="Vecoflex">
+                        <div class="project-overlay">
+                            <h3 class="overlay-title">Vecoflex</h3>
+                            <div class="overlay-tech">
+                                <span>Wordpress</span>
+                                <span>Catalogo</span>
+                            </div>
+                            <a href="https://vecoflex.com.ve" target="_blank" class="btn-outline">Visitar Sitio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 10 -->
+                <div class="project-card reveal-up" style="transition-delay: 0ms;">
+                    <div class="project-image">
+                        <img src="assets/images/Preptoace – Website.png" alt="PreptoAce">
+                        <div class="project-overlay">
+                            <h3 class="overlay-title">PreptoAce</h3>
+                            <p class="overlay-desc">Plataforma educativa especializada en NCLEX.</p>
+                            <div class="overlay-tech">
+                                <span>Dashboard User</span>
+                                <span>Sistema Pruebas</span>
+                                <span>Responsive UI</span>
+                            </div>
+                            <a href="https://preptoace.com/" target="_blank" class="btn-outline">Visitar Sitio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section bg-surface">
+        <div class="container testimonials-container">
+            <div class="testimonial-card reveal-up">
+                <svg class="quote-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path
+                        d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+                    </path>
+                    <path
+                        d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25-.25 4-2.75 4v3c0 1 0 1 1 1z">
+                    </path>
+                </svg>
+                <p class="quote">"Manuel revolucionó la arquitectura de nuestra plataforma. El rendimiento mejoró en un
+                    300% y el diseño se siente verdaderamente de clase mundial."</p>
+                <div class="author-info">
+                    <div class="author-name">Elena Castillo</div>
+                    <div class="author-title">CTO, Nexus Tech</div>
+                </div>
+            </div>
+
+            <div class="testimonial-card reveal-up" style="transition-delay: 150ms;">
+                <svg class="quote-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path
+                        d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+                    </path>
+                    <path
+                        d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25-.25 4-2.75 4v3c0 1 0 1 1 1z">
+                    </path>
+                </svg>
+                <p class="quote">"Su atención al detalle y dominio técnico son incomparables. Confío ciegamente en él
+                    para los proyectos corporativos más críticos de nuestra firma."</p>
+                <div class="author-info">
+                    <div class="author-name">David Ruiz</div>
+                    <div class="author-title">Director de Producto, Vertex</div>
+                </div>
+            </div>
+
+            <div class="testimonial-card reveal-up" style="transition-delay: 300ms;">
+                <svg class="quote-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2">
+                    <path
+                        d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+                    </path>
+                    <path
+                        d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25-.25 4-2.75 4v3c0 1 0 1 1 1z">
+                    </path>
+                </svg>
+                <p class="quote">"Una implementación impecable que superó todas nuestras expectativas visuales y de
+                    rendimiento."</p>
+                <div class="author-info">
+                    <div class="author-name">Sofía Herrera</div>
+                    <div class="author-title">CEO, Altura Finance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA & Contact Section -->
+    <section class="contact section" id="contacto">
+        <div class="container contact-inner">
+            <div class="contact-header reveal-up">
+                <h2 class="section-title">¿Listo para el siguiente nivel?</h2>
+                <div class="title-underline"></div>
+                <p class="contact-desc">Iniciemos una conversación estratégica sobre las necesidades tecnológicas de su
+                    empresa.</p>
+            </div>
+
+            <form class="contact-form reveal-up" style="transition-delay: 150ms;">
+                <div class="form-group">
+                    <label for="name" class="sr-only">Nombre Completo</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Nombre Completo"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="sr-only">Correo Electrónico Corporativo</label>
+                    <input type="email" id="email" name="email" class="form-control"
+                        placeholder="Correo Electrónico Corporativo" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="sr-only">Mensaje</label>
+                    <textarea id="message" name="message" class="form-control" rows="5"
+                        placeholder="Detalles de su proyecto..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">[EMPECEMOS TU PROYECTO]</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-col">
+                <img src="LogoManuel.png" alt="Manuel Fernández Logo" class="footer-logo">
+                <p class="footer-tagline">Desarrollo web a medida con Antigravity.</p>
+            </div>
+            <div class="footer-col">
+                <ul class="social-links">
+                    <li><a href="www.linkedin.com/in/manuel-fernandez-0bbab93a">LinkedIn</a></li>
+                    <li><a href="https://wa.link/69phfh">WhatsApp</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+                <div class="footer-legal">
+                    <p>&copy; 2026 Manuel Fernández. Todos los derechos reservados.</p>
+                    <a href="#">Política de Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
